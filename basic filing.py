@@ -1,0 +1,8 @@
+f = open("NED/PL/empolyee data.txt", "x") 
+f = open("NED/PL/empolyee data.txt", "a") 
+f.write(str(input("Employee Name:-"))) 
+f.write(str(input("Employee Id:-",))) 
+f.write(str(input("Employee Salary:-",))) 
+f = open("NED/PL/empolyee data.txt", "rt") 
+print(f.read()) 
+f.close() 
